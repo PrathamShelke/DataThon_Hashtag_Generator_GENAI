@@ -1,1 +1,1 @@
-#This Project is the Part of GENAI Hackathon 
+This Project is the Part of GENAI Hackathon 
