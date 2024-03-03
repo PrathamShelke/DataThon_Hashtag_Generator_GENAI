@@ -23,8 +23,8 @@ from langchain.chains.summarize import load_summarize_chain
 from langchain_community.document_loaders import TextLoader
 from io import StringIO
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPER_API_KEY"] = "c6ed9e313a750454de6140b985d8938630e49984"
+os.environ["OPENAI_API_KEY"] = "Enter OpenAI Api Key"
+os.environ["SERPER_API_KEY"] = "Enter Google Serp Api Key"
 
 def generate_hashtags(docs, n_hash, tone, cont_type, num, low_up):
     kw_model = KeyBERT()
